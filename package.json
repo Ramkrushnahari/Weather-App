@@ -2,12 +2,11 @@
   "name": "weather",
   "version": "1.0.0",
   "description": "weatherapp",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "heroku-run-build-script": true,
   "keywords": [],
   "author": "shivam",
   "license": "ISC",
@@ -15,16 +14,10 @@
     "express": "^4.17.1",
     "hbs": "^4.1.2",
     "heroku": "^7.57.0",
-    "nodemon": "^2.0.12",
     "path": "^0.12.7",
     "request": "^2.88.2"
   },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "currentweatherapp"
-  },
-  "engines": {
-    "node": "14.x"
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
