@@ -15,7 +15,8 @@
     "hbs": "^4.1.2",
     "heroku": "^7.57.0",
     "path": "^0.12.7",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "urijs": "^1.19.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
