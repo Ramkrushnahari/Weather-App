@@ -23,22 +23,22 @@ hbs.registerPartials(partialsDirectory)
 app.get('/',(req,res) => {
     res.render('index',{
         title : "Weather App",
-        name : "Shivam Dawale"
+        name : "Ramhari Kenjale"
     })
 })
 
 app.get('/about',(req,res)=>{
     res.render('about',{
             title : 'About Me',
-            name : 'Shivam Dawale'
+            name : 'Ramhari Kenjale'
     })
 })
 
 app.get('/help',(req,res)=>{
     res.render('help',{
-        helpText : "This is some helpful text",
+        helpText : "Weather is the state of the atmosphere, describing for example the degree to which it is hot or cold, wet or dry, calm or stormy, clear or cloudy. On Earth, most weather phenomena occur in the lowest layer of the planet's atmosphere, the troposphere, just below the stratosphere.",
         title : 'Help',
-        name : 'Shivam Dawale'
+        name : 'Ramhari Kenjale'
     })
 })
 
@@ -80,7 +80,7 @@ app.get('/products',(req,res)=>{
 app.get('/help/*',(req,res)=>{
     res.render("404",{
         title : "404",
-        name : "Shivam Dawale",
+        name : "Ramhari Kenjale",
         errorMessage : "Help Artical Not Found"
     })
 })
@@ -88,7 +88,7 @@ app.get('/help/*',(req,res)=>{
 app.get('*',(req,res)=>{
     res.render("404",{
         title : "404",
-        name : "Shivam Dawale",
+        name : "Ramhari Kenjale",
         errorMessage : "Page Not Found"
     })
 })
