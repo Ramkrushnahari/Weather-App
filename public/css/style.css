@@ -1,0 +1,87 @@
+
+body{
+    background-image: url("/images/i3.png");
+    
+    color: white;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    color: white;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a{
+    color: #bfd38a;
+    margin-right: 16px;
+    text-decoration: none;
+    font: 20px bold arial;
+}
+
+header a:hover{
+    color: yellow;
+}
+
+.portrait{
+    width: 250px;
+}
+
+input{
+    border: 1px solid #ffffff00;
+    background-color: #f4e3f8bb;
+    color: #000000;
+    padding: 8px;
+    font-size: 20px;
+    
+}
+input:hover{
+    transform: scale(1.1);
+    margin-right: 15px;
+}
+
+
+button{
+    cursor: pointer;
+    border: 2px solid white;
+    background: rgb(157, 255, 0);
+    color: black;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.1);
+    color: black;
+    border: 2px solid yellow;
+    background: white;
+    margin-left: 5px;
+}
+
+.main-content p{
+    color: #eeeeee;
+    font-size: 40px;
+}
